@@ -156,18 +156,23 @@ main div img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
-    .footer-container div svg{
-        margin: 10px;
-        height: auto;
-        width: 20px;
-        fill: rgb(199, 127, 67);
+
+    .footer-container a{
+        text-decoration: none;
     }
-        .footer-container p{
-            color: rgb(199, 127, 67);
-            margin: 5px;
+
+        .footer-container div svg{
+            margin: 10px;
+            height: auto;
+            width: 20px;
+            fill: rgb(199, 127, 67);
         }
+            .footer-container p{
+                color: rgb(199, 127, 67);
+                margin: 5px;
+            }
 
 .resolution-banner{
     object-fit:cover;
